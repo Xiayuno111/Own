@@ -1,0 +1,15 @@
+#!name=GetCookie
+#!desc=GetCookie
+#!system=ios
+#!category=GetCookie
+[Script]
+顺丰速运获取Cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,requires-body=true
+V2EX获取Cookie = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\/daily,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
+网易云音乐获取Cookie = type=http-request,pattern=^https:\/\/music.163.com\/weapi\/user\/level,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=true
+阿里网盘获取Cookie = type=http-request,pattern=^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token,requires-body=1,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
+腕表之家获取Cookie = type=http-request,pattern=^https:\/\/\w+\.xbiao\.com\/apps\/\w+/.+\/home\/center/$,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js
+高德地图获取Cookie = type=http-response,pattern=^https:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=),script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js
+
+
+[MITM]
+hostname = ccsp-egmas.sf-express.com, *.v2ex.com, music.163.com, auth.aliyundrive.com, *.xbiao.com, *.amap.com
