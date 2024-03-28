@@ -1,3 +1,7 @@
+#!name=Telecom_balance
+#!desc=https://plum-spectacles-70f.notion.site/7e96fde83576451c9f9c6ab9a95d1759
+#!system=ios
+#!category=GetCookie
 [Script]
 电信余量 = type=cron,cronexp=*/5 * * * *,wake-system=1,script-path=https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js,script-update-interval=0
 Telecom_panel= script-path=https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js,type=generic
