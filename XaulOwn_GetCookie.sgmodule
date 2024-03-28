@@ -1,5 +1,5 @@
-#!name=GetCookie
-#!desc=GetCookie
+#!name=XaulOwn_GetCookie
+#!desc=XaulOwn_GetCookie
 #!system=ios
 #!category=GetCookie
 [Script]
@@ -12,4 +12,4 @@ V2EX获取Cookie = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\
 
 
 [MITM]
-hostname = ccsp-egmas.sf-express.com, *.v2ex.com, music.163.com, auth.aliyundrive.com, *.xbiao.com, *.amap.com
+hostname = ccsp-egmas.sf-express.com, *.v2ex.com, music.163.com, %APPEND% auth.aliyundrive.com, *.xbiao.com, *.amap.com
