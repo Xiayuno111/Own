@@ -1,5 +1,5 @@
-#!name=获取联通 cookie
-#!desc=获取联通 cookie
+#!name=Unicom_GetCookie
+#!desc=Unicom_GetCookie
 #!system=ios
 #!category=GetCookie
 [Script]
